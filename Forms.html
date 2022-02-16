@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>This Is HTML Form</h1>
+    <form action="backend.php">
+        <!-- div is block element -->
+        <!-- <input type="text"> is inline element -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Reg No <input type="text" name="myReg No">
+        </div>
+        <br>
+        <div>
+            Roll No <input type="text" name="my RollNo">
+        </div>
+        <br>
+        <div>
+            Email <input type="email" name="MyEmail" >
+        </div>
+        <br>
+        <div>
+          Gender : Male  <input type="radio" name="Mygender">
+          Female <input type="radio" name="Mygender" >
+          other <input type="radio" name="Mygender" >
+        </div>
+        <br>
+        <div>
+           Date <input type="date" name="" >
+        </div>
+        <br>
+        <div>
+           Credits <input type="number" name="My Number">
+        </div> 
+        <br>
+        <div>
+            <label for="branch">Branch</label>
+            <select name="MyBranch" id="branch">
+                <option value="Ece">ECE</option>
+                <option value="Eee">EEE</option>
+                <option value="Cce">CSE</option>
+            </select>
+        
+        </div>
+        <br>
+        <div>
+           Eligibility <input type="checkbox" name="My checkbox"checked >
+        </div>
+        <br>
+        <div>
+            About Me <br><textarea name="mytext " cols="10" rows="5"></textarea>
+        
+        </div>
+        <br>
+        <div>
+            Submit <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        <div>
+           Reset <input type="reset" value="ResetNow">
+        </div>
+    
+
+    </form>
+
+    
+</body>
+</html>
